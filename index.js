@@ -110,8 +110,8 @@ instance.prototype.actions = function(system) {
 						type:    'textinput',
 						label:   'IR Code',
 						id:      'ir',
-						width:   12,
-						regex:   '/^\\d+(,\\d+)+$/'
+						width:   512,
+						regex:   '((?:\d+(?:,)?)+)'
 					}
 			]
 		},
